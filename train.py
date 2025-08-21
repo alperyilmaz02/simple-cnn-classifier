@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from aeskNet import AeskNet
-from smallaeskNet import SmallAeskNet
+from models.aeskNet import AeskNet
+from models.smallaeskNet import SmallAeskNet
 import matplotlib.pyplot as plt
 import numpy as np
 import argparse

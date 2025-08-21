@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 from sensor_msgs.msg import Image
-from aeskNet import AeskNet
-from smallaeskNet import SmallAeskNet
+from models.aeskNet import AeskNet
+from models.smallaeskNet import SmallAeskNet
 import cv2  
 import rospy
 import numpy as np
