@@ -1,0 +1,9 @@
+<launch>
+
+    <node name="aeskNet" pkg="aesk_net" type="test.py" output="screen">
+
+        <rosparam command="load" file="$(find aesk_net)/config/param.yaml" />
+
+    </node>
+
+</launch>

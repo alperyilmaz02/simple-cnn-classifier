@@ -1,0 +1,5 @@
+# test parameters
+image_path: "/classed" # topic to subscribe
+weight_path: "/home/falconetti/simple-cnn-classifier/results/best.pth" # pytorch weights to use when inferencing
+model_type: 2 # 1 for normal image inputs, 2 for small image inputs  
+img_size: 16
